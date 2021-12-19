@@ -1,1 +1,35 @@
 RD3qRQ6zW3jGkPFVAv8iVi5WPzNqYfbgmZ5czutQUmH.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+serum-dex-ui/node_modules
+serum-dex-ui/.pnp
+serum-dex-ui/.pnp.js
+
+# testing
+serum-dex-ui/coverage
+
+# production
+serum-dex-ui/build
+
+# misc
+serum-dex-ui/.DS_Store
+serum-dex-ui/.env.local
+serum-dex-ui/.env.development.local
+serum-dex-ui/.env.test.local
+serum-dex-ui/.env.production.local
+
+serum-dex-ui/npm-debug.log*
+serum-dex-ui/yarn-debug.log*
+serum-dex-ui/yarn-error.log*
+
+serum-dex-ui/.idea
+
+serum-dex-ui/.env
+
+
+# TV 
+serum-dex-ui/public/charting_library
+serum-dex-ui/src/charting_library
+serum-dex-ui/public/datafeeds
